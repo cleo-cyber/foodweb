@@ -1,0 +1,82 @@
+body{
+	list-style: none;
+	text-decoration: none;
+	padding: 0;
+	margin: 10px;
+	line-height: 1.5em;
+	font-family: Verdana;
+	font-size: 16px;
+	box-sizing: border-box;
+	border-radius: 3px;
+	background-attachment: scroll;
+	font-weight: normal;
+
+}
+#Ourstory  h3{
+	margin-bottom: 10px;
+	font-size: 30px;
+	font-weight:50 ;
+}
+#Ourstory  p{
+	font-weight: 100;
+	color: gray;
+	padding: 10px;
+	line-height: 1.5em;
+}
+
+#vermouth{
+	display: grid;
+	grid-template-columns: 30% 70%;
+	grid-auto-rows: minmax(50%,auto);
+	grid-auto-columns: minimax(50%,auto);
+	grid-gap: 4em;
+}
+
+#vermouth .photo img{
+	height: 400px;
+	margin: 25px;
+
+
+}
+
+#vermouth .spain{
+	display: grid;
+	grid-template-columns:60%;
+	grid-template-rows: 45%;
+	grid-gap: 3px;
+}
+#vermouth .spain h5{
+	font-weight: 500;
+	font-size: 30px;
+	line-height: 1em;
+	color: #333;
+	margin-left:20px ;
+
+}
+
+#vermouth .spain p{
+	transition: linear 0.3s;
+	color: gray;
+	line-height: 1.5em;
+	justify-content: space-evenly;
+	margin: 15px;
+	margin-left: 20px;
+	 
+}
+
+@media all and (max-width: 600px){
+	body{
+		font-size: 10px;
+		display: block;
+		font-size: ;
+	}
+
+	#vermouth{
+		display: block;
+	}
+
+	
+}
+
+
+}

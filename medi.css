@@ -1,0 +1,444 @@
+h5{
+	font-weight: 500;
+	font-size: 30px;
+	line-height: 1em;
+	color: #333;
+	margin-left:20px ;
+
+}
+button{
+	background-color:#d16644 ;
+	border: none;
+
+}
+
+button:hover{
+	transition: 0.3s linear;
+	background-color: #cf7956;
+}
+
+}
+
+body{
+	overflow: auto;
+	list-style: none;
+	text-decoration: none;
+	padding: 0;
+	margin: 10px;
+	line-height: 1.5em;
+	font-family: Verdana;
+	font-size: 16px;
+	box-sizing: border-box;
+	border-radius: 3px;
+	background-attachment: scroll;
+	font-weight: normal;
+
+}
+
+
+header .logo{
+	display: grid;
+	grid-template-columns: auto auto;
+
+
+
+
+}
+header #mediera{
+	background-image: url("images.jpg");
+	background-size: 1060px;
+	height: 40%;
+	background-attachment: scroll;
+	margin: 0;
+}
+header #mediera button{
+	width: 40%;
+	height: 25%;
+	margin-top: 40px;
+	background-color: #d16644;
+	border: none;
+	margin-right: 10px;
+}
+header #mediera button:hover{
+	transition: 0.3s linear;
+	background-color: #cf7956;
+}
+header .logo a{
+margin: 20px;
+margin-top: 30px;
+color: white;
+text-decoration: none;
+
+
+width: 40%;
+height: 40%;
+text-align: center;
+margin-right: 10px;
+
+font-weight: bold;
+}
+
+header .logo a:hover{
+	
+	transition: ease 0.3;
+	background-color: #cf7956;
+	cursor: pointer;
+}
+header .logo .name{
+	display: flex;
+
+}
+header .logo h2{
+	margin-left:40px;
+	margin-top: 40px;
+	color: white;
+
+
+}
+header .logo img{
+	height: 70px;
+	margin: 20px;
+}
+
+header .Navigation{
+	padding: 20px;
+	margin: 20px;
+	 font-size: 30px;
+
+}
+
+header .Navigation li{
+	list-style: none;
+	padding: 20px;
+}
+
+header .Navigation li a{
+	color: white;
+	text-decoration: none;
+	border-bottom: white 1px solid;
+}
+
+header .sub{
+	display: flex;
+	margin-top: 0px;
+}
+
+header .sub .first{
+	background-image: url("images2.jpg");
+	width: 50%;
+	height:200px;
+	background-repeat:repeat;
+	background-size: 100%;
+	border: none;
+}
+
+header .sub .first h3{
+color: white;
+text-align: center;
+font-weight: normal;
+margin-top: 100px;
+
+}
+
+header .sub .second{
+	background-image: url("image3.jpg");
+	width:50%;
+	height: 200px;
+	background-size: 100%;
+	border: none;
+}
+
+header .sub .second h3{
+	color: white;
+	font-weight: normal;
+	text-align: center;
+	margin-top: 100px;
+}
+
+#Ourstory  h3{
+	margin-bottom: 10px;
+	font-size: 30px;
+	font-weight:50 ;
+}
+#Ourstory  p{
+	font-weight: 100;
+	color: gray;
+	padding: 10px;
+	line-height: 1.5em;
+	font-size: 20px;
+}
+
+#vermouth{
+	display: grid;
+	grid-template-columns: 30% 70%;
+	grid-auto-rows: minmax(50%,auto);
+	grid-auto-columns: minimax(50%,auto);
+	grid-gap: 4em;
+}
+
+#vermouth .photo img{
+	height: 400px;
+	margin: 25px;
+
+
+}
+
+#vermouth .spain{
+	display: grid;
+	grid-template-columns:60%;
+	grid-template-rows: 45%;
+	grid-gap: 3px;
+}
+#vermouth .spain h5{
+	font-weight: 500;
+	font-size: 30px;
+	line-height: 1em;
+	color: #333;
+	margin-left:20px ;
+
+}
+
+#vermouth .spain p{
+	transition: linear 0.3s;
+	color: gray;
+	line-height: 1.5em;
+	margin-left: 20px;
+	font-size: 20px;
+
+}
+
+#chinese{
+	display: grid;
+	grid-template-columns: 60% 40%;
+	grid-auto-rows: minmax(50%,auto);
+	grid-auto-columns: minimax(50%,auto);
+	grid-gap: 1em;
+	margin: 20px;
+	margin-left: 0px;
+}
+
+#chinese .diet img{
+	height: 400px;
+	margin: 25px;
+	width: 70%;
+	margin-right: 30px;
+	margin-left: 0px;
+}
+
+#chinese .chop{
+	overflow: hidden;
+	display: grid;
+	grid-template-columns: 90%;
+	grid-template-rows: 40%;
+	grid-gap: 2px;
+
+}
+
+#chinese .chop h5{
+	font-weight: 500px;
+	font-size: 30px;
+	line-height: 1em;
+	color: #333;
+	margin-left: 20px;
+	width: 80%;
+
+}
+
+#chinese .chop p{
+	color: grey;
+	line-height: 1.5em;
+	margin-left: 20px;
+	margin-right: 0px;
+	width: 80%;
+	font-size: 20px;
+}
+
+#ourMenu{
+	display: grid;
+	margin: 20px;
+	grid-template-columns: 1fr 1fr;
+	justify-items: start;
+}
+
+#ourMenu .first{
+	display: grid;
+	align-self: start;
+}
+#ourMenu .penne img{
+	height: 400px;
+	width: 65%;
+	align-self: end;
+}
+
+#ourMenu .menu{
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-auto-rows: 100%;
+	line-height: 1.5em;
+}
+
+#ourMenu .menu button{
+	width: 100%;
+	height: 20%;
+	background-color: #B06660;
+	border: none;
+}
+
+#ourMenu .menu button:hover{
+	transition: 0.3s linear;
+	background-color: #cf7956;
+}
+
+#ourMenu .menu p{
+	font-weight: 500;
+	font-size: 23px;
+}
+h3{
+	font-weight: 500;
+	font-size: 30px;
+	margin-left: 29px;
+	margin-bottom: 40px;
+	color: #333;
+}
+@media all and (max-width: 600px){
+	body{
+		font-size: 20px;
+		display: block;
+		transition:width linear 1s;
+		
+	}
+
+	#vermouth{
+		display: block;
+		width: 100%;
+		
+	}
+
+	#vermouth h5{
+		margin-bottom: 10px;
+		width: 100%;
+	}
+	#vermouth p{
+		width: 100%;
+		font-size: 16px;
+		margin-top: 25%;
+
+	}
+
+	#Ourstory p{
+		font-size: 16px;
+
+	}
+
+	#mediera .logo a{
+		display: inline;
+		margin-right: ;
+		
+	}
+
+	#chinese{
+		display: block;
+
+	}
+
+	#chinese h5{
+		margin-top: 10px;
+	}
+
+	#chinese p{
+		font-size: 16px;
+		
+	}
+	header{
+		display: flex;
+		flex-direction: column;
+
+	}
+
+	header .sub{
+		display: flex;
+		flex-direction: column;
+
+
+	}
+
+	header .sub .first{
+
+		width: 100%;
+		
+	}
+	
+	header .sub .second{
+		width: 100%;
+		margin-top: 0px;
+
+	}
+
+	header .sub .first h3{
+		text-align: right;
+		margin-right: 20px;
+		}
+
+	header.sub .second h3{
+		text-align: left;
+
+	}
+
+	header .logo a{
+		font-size: 0px;
+		font-weight: 0;
+		border: none;
+		background-color: inherit;
+		background-size: 0px;
+		width: 0%;
+}
+
+header .logo a:hover{
+	color: inherit;
+	background-color: inherit;
+	background-size: 0px;
+}
+
+header #mediera .name{
+	display: flex;
+	flex-direction: row;
+	font-size: 16px;
+	padding: 0px;
+
+}
+header #mediera .name h2{
+	font-size: 0px;
+	font-weight: 0px;
+	width: 0px;
+	height: 0px;
+}
+
+header #mediera .name img{
+	width: 100%;
+	display: flex;
+	
+	
+
+}
+
+#ourMenu{
+	display: block;
+
+}
+
+#ourMenu .menu{
+	font-size: 16px;
+	display: grid;
+	grid-template-columns: 100%;
+	justify-self: end;
+
+}
+
+#ourMenu .menu p{
+	font-size: 17px;
+	font-weight: bold;
+	color: #333;
+}
+
+}
+
